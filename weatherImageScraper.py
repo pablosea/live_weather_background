@@ -19,7 +19,7 @@ url_list = tree.xpath('//*[@id="main"]/div/div[5]/div[2]/ul/li[7]/a/@href')
 #xpath returns link as a list, this just pulls link text out of the list
 image_url = url_list[0]
 
-file_destination = 'C:/Users/PJR/Pictures/weather/res.jpg'
+file_destination = 'your/folder/path/here/res.jpg'
 
 #grab image
 res = requests.get(image_url)
